@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.empresa.alumnado.MainActivity">
+    <item
+        android:icon="@drawable/filter"
+        android:title="Ordenar"
+        app:showAsAction="always|withText">
+        <menu>
+            <item
+                android:id="@+id/ordenarNombre"
+                android:title="@string/ordenarNombre" />
+            <item
+                android:id="@+id/ordenarCurso"
+                android:title="@string/ordernarCurso" />
+            <item
+                android:id="@+id/ordenarCalificacion"
+                android:title="@string/ordenarCalificacion" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/actualizarLista"
+        android:icon="@drawable/refresh"
+        android:title="@string/actualizarLista"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/acercaDe"
+        android:icon="@drawable/acercade"
+        android:title="@string/acercaDe"
+        app:showAsAction="always" />
+</menu>
